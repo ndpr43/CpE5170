@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armstlink2.dll" 
+
+"G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Exe\Project.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\ST\STM32W1xx.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\ST\FlashSTM32W108xB.board" 
+
+
+
+
