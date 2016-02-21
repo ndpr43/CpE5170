@@ -1,0 +1,1280 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                21/Feb/2016  16:49:51
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Exe\Project.out
+#    Map file     =  
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\List\Project.map
+#    Command line =  
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\app_temp_1wire_main.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\Application.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\arm_adc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\board.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\bs_base.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\ChannelSwitching.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\CongestionControl.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\context-switch.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\hal_adc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\hal_clocks.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\hal_flash.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\hal_uart.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\hio_xbee.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\lcd_char2x8.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\low_level_init.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\main.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\mb_snt_x2.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\mfg-token.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\micro-common-internal.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\micro-common.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\micro.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\microstrain.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\mote.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\nvm.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\OneWire.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\packet.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\Phy_layer.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\Q_Droptail.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\Q_SFQ.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\Queuing.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\routing.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\routing_AODV.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\routing_MMCR.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\routing_MMCR_MPR_select.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\routing_OEDSR.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\rssi_sensor.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\RTC.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\rtls_beacon.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\rtls_calculate.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\sch_basic.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\sig_basic.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Libraries\SimpleMAC\Binary\simplemac-library.a
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\sleep.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\src_8bit_adc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\src_dummy.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\ssn_8bit.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\ssn_basic.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\startup_stm32w108xx.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_adc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_clk.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_exti.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_flash.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_gpio.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32W108xx_it.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_misc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_pwr.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_rst.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_sc.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_slptim.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_tim.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\stm32w108xx_wdg.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\STM32W_Radio.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\sys_func.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\system-timer.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\system_stm32w108xx.o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj\tsp_common.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Exe\Project.out
+#        --map
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\List\Project.map
+#        --config
+#        G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\stm32w108xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08040000 { section FAT };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { block FLASH_IMAGE };
+"A2":  place at end of [0x08000000-0x0801ffff] { section NVM };
+"P2":  place in [from 0x20000000 to 0x20001fff] { block RAM_BLOCK };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"P1":                                       0x6fee
+  FLASH_IMAGE                   0x08000000  0x6fee  <Block>
+    .intvec            ro code  0x08000000    0x84  startup_stm32w108xx.o [1]
+    .text              ro code  0x08000084   0x1cc  app_temp_1wire_main.o [1]
+    .text              ro code  0x08000250   0x2f6  OneWire.o [1]
+    .rodata            const    0x08000546    0x12  mfg-token.o [1]
+    .text              ro code  0x08000558    0x48  system-timer.o [1]
+    .text              ro code  0x080005a0    0x24  printf.o [3]
+    .text              ro code  0x080005c4   0x2dc  sch_basic.o [1]
+    .text              ro code  0x080008a0    0x34  sprintf.o [3]
+    .text              ro code  0x080008d4   0x2c4  main.o [1]
+    .text              ro code  0x08000b98    0x86  stm32w108xx_gpio.o [1]
+    .text              ro code  0x08000c1e     0xa  xsprout.o [3]
+    .text              ro code  0x08000c28   0x138  micro-common-internal.o [1]
+    .text              ro code  0x08000d60   0x4d8  xprintfsmall.o [3]
+    .text              ro code  0x08001238   0x176  mb_snt_x2.o [1]
+    .text              ro code  0x080013b0    0xcc  src_8bit_adc.o [1]
+    .text              ro code  0x0800147c    0x44  RTC.o [1]
+    .text              ro code  0x080014c0    0x14  sys_func.o [1]
+    .text              ro code  0x080014d4    0x5c  Phy_layer.o [1]
+    .text              ro code  0x08001530    0x94  Queuing.o [1]
+    .text              ro code  0x080015c4   0x2f4  routing.o [1]
+    .text              ro code  0x080018b8   0x440  Application.o [1]
+    .text              ro code  0x08001cf8   0x168  ChannelSwitching.o [1]
+    .text              ro code  0x08001e60   0x1c0  tsp_common.o [1]
+    .text              ro code  0x08002020   0x1ac  ssn_8bit.o [1]
+    .text              ro code  0x080021cc   0x11a  stm32w108xx_sc.o [1]
+    .text              ro code  0x080022e8   0x2c4  hio_xbee.o [1]
+    .text              ro code  0x080025ac    0xdc  cal_adc.o [7]
+    .text              ro code  0x08002688    0x68  mfg-token.o [1]
+    .text              ro code  0x080026f0    0x16  strchr.o [5]
+    .text              ro code  0x08002708    0x36  strlen.o [5]
+    .text              ro code  0x08002740    0x58  memchr.o [5]
+    .text              ro code  0x08002798    0x7c  stm32w108xx_exti.o [1]
+    .text              ro code  0x08002814    0x68  stm32w108xx_misc.o [1]
+    .text              ro code  0x0800287c   0x27c  hal_adc.o [1]
+    .text              ro code  0x08002af8    0xae  phy-library.o [7]
+    .text              ro code  0x08002ba8    0x70  Q_Droptail.o [1]
+    .text              ro code  0x08002c18   0x3d0  routing_AODV.o [1]
+    .text              ro code  0x08002fe8   0x4c4  routing_OEDSR.o [1]
+    .text              ro code  0x080034ac   0x7d0  routing_MMCR_MPR_select.o [1]
+    .text              ro code  0x08003c7c   0x358  routing_MMCR.o [1]
+    .text              ro code  0x08003fd4   0x308  STM32W_Radio.o [1]
+    .text              ro code  0x080042dc    0x20  stm32w108xx_clk.o [1]
+    .text              ro code  0x080042fc    0x3a  ABImemset48.o [5]
+    .text              ro code  0x08004338     0x8  context-switch.o [1]
+    .text              ro code  0x08004340    0xb0  micro.o [1]
+    .text              ro code  0x080043f0    0x50  stm32w108xx_adc.o [1]
+    .text              ro code  0x08004440   0x6cc  analogue.o [7]
+    .text              ro code  0x08004b0c   0x5fc  phy-common.o [7]
+    .text              ro code  0x08005108   0x268  mote.o [1]
+    .text              ro code  0x08005370   0x414  phy.o [7]
+    .text              ro code  0x08005784     0x6  ABImemclr.o [5]
+    .text              ro code  0x0800578c    0x18  packet.o [1]
+    .text              ro code  0x080057a4   0x2f8  hal_clocks.o [1]
+    .text              ro code  0x08005a9c    0x4c  board.o [1]
+    .text              ro code  0x08005ae8    0x44  micro-common.o [1]
+    .text              ro code  0x08005b2c    0x76  ABImemcpy_unaligned.o [5]
+    .text              ro code  0x08005ba4    0x62  memcmp_unaligned.o [5]
+    .text              ro code  0x08005c08    0xd0  analogue-cell-bias.o [7]
+    .text              ro code  0x08005cd8   0x49c  nvm.o [1]
+    .text              ro code  0x08006174    0x30  analogue-filter.o [7]
+    .text              ro code  0x080061a4    0xb0  analogue-vco.o [7]
+    .text              ro code  0x08006254   0x2dc  analogue-mod-dac.o [7]
+    .text              ro code  0x08006530   0x1aa  analogue-lna.o [7]
+    .text              ro code  0x080066da     0x6  abort.o [3]
+    .text              ro code  0x080066e0    0x18  eui64.o [7]
+    .text              ro code  0x080066f8   0x152  hal_uart.o [1]
+    .text              ro code  0x0800684c    0x24  ABIassert.o [6]
+    .text              ro code  0x08006870    0xec  aes.o [7]
+    .text              ro code  0x0800695c    0x5e  ABImemset.o [5]
+    .text              ro code  0x080069bc   0x150  hal_flash.o [1]
+    .text              ro code  0x08006b0c     0x8  abs.o [3]
+    .text              ro code  0x08006b14    0x14  exit.o [6]
+    .text              ro code  0x08006b28    0x44  byte-utilities.o [7]
+    .text              ro code  0x08006b6c    0x38  context-switch.o [1]
+    .text              ro code  0x08006ba4    0x10  context-switch.o [1]
+    .text              ro code  0x08006bb4   0x160  low_level_init.o [1]
+    .text              ro code  0x08006d14    0x10  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d24    0x1a  cmain.o [5]
+    .text              ro code  0x08006d40    0x28  data_init.o [5]
+    .text              ro code  0x08006d68     0x4  exit.o [3]
+    .text              ro code  0x08006d6c     0xa  cexit.o [5]
+    .text              ro code  0x08006d76     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d7a     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d7e     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d82     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d86     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d8a     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d8e     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d92     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d96     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d9a     0x4  startup_stm32w108xx.o [1]
+    .text              ro code  0x08006d9e    0x32  stm32W108xx_it.o [1]
+    .text              ro code  0x08006dd0     0xc  cstartup_M.o [5]
+    .text              ro code  0x08006ddc    0x16  xprout.o [3]
+    .text              ro code  0x08006df2    0x28  putchar.o [3]
+    .text              ro code  0x08006e1a    0x40  zero_init3.o [5]
+    .text              ro code  0x08006e5a    0x38  packbits_init_single.o [5]
+    .iar.init_table    const    0x08006e94    0x20  - Linker created -
+    .rodata            const    0x08006eb4     0x0  zero_init3.o [5]
+    .rodata            const    0x08006eb4     0x0  packbits_init_single.o [5]
+    Initializer bytes  const    0x08006eb4   0x13a  <for rw-1>
+                              - 0x08006fee  0x6fee
+
+"A2":                                        0x800
+  NVM                  uninit   0x0801f800   0x400  nvm.o [1]
+  NVM                  uninit   0x0801fc00   0x400  nvm.o [1]
+                              - 0x08020000   0x800
+
+"A1":                                         0x2c
+  FAT                  uninit   0x08040000    0x2c  low_level_init.o [1]
+                              - 0x0804002c    0x2c
+
+"P2":                                       0x14bc
+  RAM_BLOCK                     0x20000000  0x14bc  <Block>
+    CSTACK                      0x20000000   0x400  <Block>
+      CSTACK           uninit   0x20000000   0x400  <Block tail>
+    rw-1                        0x20000400   0x53c  <Init block>
+      .data            inited   0x20000400    0x48  app_temp_1wire_main.o [1]
+      .data            inited   0x20000448    0x30  Application.o [1]
+      .data            inited   0x20000478    0x2c  ChannelSwitching.o [1]
+      .data            inited   0x200004a4    0x1c  main.o [1]
+      .data            inited   0x200004c0     0x8  mb_snt_x2.o [1]
+      .data            inited   0x200004c8     0x4  mb_snt_x2.o [1]
+      .data            inited   0x200004cc     0xc  mb_snt_x2.o [1]
+      .data            inited   0x200004d8     0x8  mote.o [1]
+      .data            inited   0x200004e0    0x82  mote.o [1]
+      .data            inited   0x20000564    0x48  mote.o [1]
+      .data            inited   0x200005ac    0x20  Phy_layer.o [1]
+      .data            inited   0x200005cc    0x3c  routing_AODV.o [1]
+      .data            inited   0x20000608    0x10  routing_MMCR.o [1]
+      .data            inited   0x20000618     0x8  routing_MMCR.o [1]
+      .data            inited   0x20000620    0x28  routing_MMCR_MPR_select.o [1]
+      .data            inited   0x20000648   0x150  routing_MMCR_MPR_select.o [1]
+      .data            inited   0x20000798     0x8  routing_OEDSR.o [1]
+      .data            inited   0x200007a0   0x100  sch_basic.o [1]
+      .data            inited   0x200008a0    0x58  STM32W_Radio.o [1]
+      .data            inited   0x200008f8     0xe  analogue.o [7]
+      .data            inited   0x20000908    0x1c  phy-common.o [7]
+      .data            inited   0x20000924     0x8  hal_clocks.o [1]
+      .data            inited   0x2000092c     0x4  micro.o [1]
+      .data            inited   0x20000930     0x9  analogue.o [7]
+      .data            inited   0x20000939     0x1  routing_MMCR.o [1]
+      .data            inited   0x2000093a     0x1  STM32W_Radio.o [1]
+      .data            inited   0x2000093b     0x1  phy-common.o [7]
+    CSTACK             rw data  0x2000093c     0x0  context-switch.o [1]
+    RESETINFO          rw data  0x2000093c     0x0  context-switch.o [1]
+    .bss               zero     0x2000093c     0x8  context-switch.o [1]
+    .bss               zero     0x20000944    0x1e  hal_adc.o [1]
+    .bss               zero     0x20000962     0x6  hal_uart.o [1]
+    .bss               zero     0x20000968    0x80  hal_uart.o [1]
+    .bss               zero     0x200009e8    0x74  hio_xbee.o [1]
+    .bss               zero     0x20000a5c    0x7a  hio_xbee.o [1]
+    .bss               zero     0x20000ad6     0x2  routing.o [1]
+    .bss               zero     0x20000ad8     0xc  hio_xbee.o [1]
+    .bss               zero     0x20000ae4     0x4  main.o [1]
+    .bss               zero     0x20000ae8    0x8c  mote.o [1]
+    .bss               zero     0x20000b74    0x10  Q_Droptail.o [1]
+    .bss               zero     0x20000b84    0x38  Queuing.o [1]
+    .bss               zero     0x20000bbc   0x320  Queuing.o [1]
+    .bss               zero     0x20000edc    0xb8  routing_MMCR.o [1]
+    .bss               zero     0x20000f94    0x10  routing_MMCR_MPR_select.o [1]
+    .bss               zero     0x20000fa4    0x28  routing_OEDSR.o [1]
+    .bss               zero     0x20000fcc    0x28  routing_OEDSR.o [1]
+    .bss               zero     0x20000ff4    0x40  routing_OEDSR.o [1]
+    .bss               zero     0x20001034    0x20  routing_OEDSR.o [1]
+    .bss               zero     0x20001054     0x8  RTC.o [1]
+    .bss               zero     0x2000105c    0x54  sch_basic.o [1]
+    .bss               zero     0x200010b0    0x20  sch_basic.o [1]
+    .bss               zero     0x200010d0    0x78  sch_basic.o [1]
+    .bss               zero     0x20001148    0x78  sch_basic.o [1]
+    .bss               zero     0x200011c0     0xc  sleep.o [1]
+    .bss               zero     0x200011cc    0x18  src_8bit_adc.o [1]
+    .bss               zero     0x200011e4     0x4  ssn_8bit.o [1]
+    .bss               zero     0x200011e8   0x120  ssn_8bit.o [1]
+    .bss               zero     0x20001308     0x4  STM32W_Radio.o [1]
+    .bss               zero     0x2000130c     0x8  system-timer.o [1]
+    .bss               zero     0x20001314    0x38  tsp_common.o [1]
+    .bss               zero     0x2000134c    0x24  analogue.o [7]
+    .bss               zero     0x20001370   0x128  phy.o [7]
+    .bss               zero     0x20001498     0x8  eui64.o [7]
+    .bss               zero     0x200014a0     0x8  analogue-mod-dac.o [7]
+    .bss               zero     0x200014a8     0x1  Application.o [1]
+    .bss               zero     0x200014a9     0x1  hal_flash.o [1]
+    .bss               zero     0x200014aa     0x1  micro-common-internal.o [1]
+    .bss               zero     0x200014ab     0x1  packet.o [1]
+    .bss               zero     0x200014ac     0x4  routing.o [1]
+    .bss               zero     0x200014b0     0x1  routing.o [1]
+    .bss               zero     0x200014b1     0x1  routing.o [1]
+    .bss               zero     0x200014b2     0x1  routing.o [1]
+    .bss               zero     0x200014b3     0x1  sys_func.o [1]
+    .bss               zero     0x200014b4     0x2  phy.o [7]
+    .bss               zero     0x200014b6     0x2  phy.o [7]
+    .bss               zero     0x200014b8     0x3  analogue-vco.o [7]
+                              - 0x200014bc  0x14bc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xb7f:
+          0x2000093c  0xb7f
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x13a (23% of destination):
+          0x08006eb4  0x13a
+    1 destination range, total size 0x53c:
+          0x20000400  0x53c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj: [1]
+    Application.o                1 088       12       49
+    ChannelSwitching.o             360       10       44
+    OneWire.o                      758
+    Phy_layer.o                     92        7       32
+    Q_Droptail.o                   112                16
+    Queuing.o                      148               856
+    RTC.o                           68                 8
+    STM32W_Radio.o                 776       21       93
+    app_temp_1wire_main.o          460       16       72
+    board.o                         76
+    context-switch.o                80                 8
+    hal_adc.o                      636                30
+    hal_clocks.o                   760        2        8
+    hal_flash.o                    336                 1
+    hal_uart.o                     338               134
+    hio_xbee.o                     708               250
+    low_level_init.o               352       44
+    main.o                         708        6       32
+    mb_snt_x2.o                    374        6       24
+    mfg-token.o                    104       18
+    micro-common-internal.o        312                 1
+    micro-common.o                  68
+    micro.o                        176        1        4
+    mote.o                         616       50      350
+    nvm.o                        1 180    2 048
+    packet.o                        24                 1
+    routing.o                      756                 9
+    routing_AODV.o                 976       14       60
+    routing_MMCR.o                 856        6      209
+    routing_MMCR_MPR_select.o    2 000       88      392
+    routing_OEDSR.o              1 220        2      184
+    sch_basic.o                    732       60      612
+    sleep.o                                           12
+    src_8bit_adc.o                 204                24
+    ssn_8bit.o                     428               292
+    startup_stm32w108xx.o          188
+    stm32W108xx_it.o                50
+    stm32w108xx_adc.o               80
+    stm32w108xx_clk.o               32
+    stm32w108xx_exti.o             124
+    stm32w108xx_gpio.o             134
+    stm32w108xx_misc.o             104
+    stm32w108xx_sc.o               282
+    sys_func.o                      20                 1
+    system-timer.o                  72                 8
+    tsp_common.o                   448                56
+    ----------------------------------------------------
+    Total:                      19 416    2 411    3 872
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                          6
+    abs.o                            8
+    exit.o                           4
+    printf.o                        36
+    putchar.o                       40
+    sprintf.o                       52
+    xprintfsmall.o               1 240
+    xprout.o                        22
+    xsprout.o                       10
+    ----------------------------------------------------
+    Total:                       1 418
+
+m7M_tl.a: [4]
+    ----------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemclr.o                      6
+    ABImemcpy_unaligned.o          118
+    ABImemset.o                     94
+    ABImemset48.o                   58
+    cexit.o                         10
+    cmain.o                         26
+    cstartup_M.o                    12
+    data_init.o                     40
+    memchr.o                        88
+    memcmp_unaligned.o              98
+    packbits_init_single.o          56
+    strchr.o                        22
+    strlen.o                        54
+    zero_init3.o                    64
+    ----------------------------------------------------
+    Total:                         746
+
+shb_l.a: [6]
+    ABIassert.o                     36
+    exit.o                          20
+    ----------------------------------------------------
+    Total:                          56
+
+simplemac-library.a: [7]
+    aes.o                          236
+    analogue-cell-bias.o           208
+    analogue-filter.o               48
+    analogue-lna.o                 426
+    analogue-mod-dac.o             732                 8
+    analogue-vco.o                 176                 3
+    analogue.o                   1 740        5       59
+    byte-utilities.o                68
+    cal_adc.o                      220
+    eui64.o                         24                 8
+    phy-common.o                 1 532        8       29
+    phy-library.o                  174
+    phy.o                        1 044               300
+    ----------------------------------------------------
+    Total:                       6 628       13      407
+
+    Gaps                            24        2        4
+    Linker created                           32    1 024
+--------------------------------------------------------
+    Grand Total:                28 288    2 458    5 307
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08006e94          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08006eb4          --   Gb  - Linker created -
+?main                   0x08006d25         Code  Gb  cmain.o [5]
+ACK_AODV_counter        0x200014b2    0x1  Data  Gb  routing.o [1]
+ACK_OEDSR_counter       0x20000ffa    0x1  Data  Gb  routing_OEDSR.o [1]
+ACK_packet              0x08002d13   0x3a  Code  Gb  routing_AODV.o [1]
+ADC_DMA_ChannelLoadEnable
+                        0x0800441f    0xc  Code  Gb  stm32w108xx_adc.o [1]
+ADC_DMA_ChannelReset    0x0800442b    0x8  Code  Gb  stm32w108xx_adc.o [1]
+ADC_DMA_Config          0x08004417    0x8  Code  Gb  stm32w108xx_adc.o [1]
+ADC_IRQHandler          0x08006dcd    0x4  Code  Gb  stm32W108xx_it.o [1]
+ADC_Init                0x080043f1   0x26  Code  Gb  stm32w108xx_adc.o [1]
+AODV_control_bit        0x200014ac    0x1  Data  Gb  routing.o [1]
+AODV_find_direction     0x08002dab   0x26  Code  Gb  routing_AODV.o [1]
+AODV_reply_sent         0x200005cc    0x1  Data  Gb  routing_AODV.o [1]
+AODV_route_control      0x200014ae    0x1  Data  Gb  routing.o [1]
+AODV_send_DATA_base     0x08002f37   0x66  Code  Gb  routing_AODV.o [1]
+AODVcounter_update      0x20000ad6    0x1  Data  Gb  routing.o [1]
+BUTTON_EXTI_IRQn        0x0800139c    0x2  Data  Gb  mb_snt_x2.o [1]
+BUTTON_EXTI_SOURCE      0x080013a0    0x2  Data  Gb  mb_snt_x2.o [1]
+BUTTON_IRQn             0x080013a4    0x2  Data  Gb  mb_snt_x2.o [1]
+BUTTON_PIN              0x08001398    0x2  Data  Gb  mb_snt_x2.o [1]
+BUTTON_PORT             0x200004c8    0x4  Data  Gb  mb_snt_x2.o [1]
+BusFault_Handler        0x08006da5    0x2  Code  Gb  stm32W108xx_it.o [1]
+CLK_GetClocksFreq       0x080042dd   0x12  Code  Gb  stm32w108xx_clk.o [1]
+COM_RX_PIN              0x080013ac    0x2  Data  Gb  mb_snt_x2.o [1]
+COM_RX_PORT             0x200004d4    0x4  Data  Gb  mb_snt_x2.o [1]
+COM_TX_PIN              0x080013a8    0x2  Data  Gb  mb_snt_x2.o [1]
+COM_TX_PORT             0x200004d0    0x4  Data  Gb  mb_snt_x2.o [1]
+COM_UART                0x200004cc    0x4  Data  Gb  mb_snt_x2.o [1]
+CSTACK$$Base            0x20000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000400          --   Gb  - Linker created -
+DATA_AODV_counter       0x20000ad7    0x1  Data  Gb  routing.o [1]
+DAT_OEDSR_counter       0x20000ffb    0x1  Data  Gb  routing_OEDSR.o [1]
+DSState                 0x20000404    0x4  Data  Gb  app_temp_1wire_main.o [1]
+DebugMon_Handler        0x08006dab    0x2  Code  Gb  stm32W108xx_it.o [1]
+EXTI_Init               0x08002799   0x72  Code  Gb  stm32w108xx_exti.o [1]
+FLASH_IMAGE$$Base       0x08000000          --   Gb  - Linker created -
+FLASH_IMAGE$$Limit      0x08006fee          --   Gb  - Linker created -
+GPIO_Init               0x08000b99   0x70  Code  Gb  stm32w108xx_gpio.o [1]
+GPIO_PIN                0x08001394    0x4  Data  Gb  mb_snt_x2.o [1]
+GPIO_PORT               0x200004c0    0x8  Data  Gb  mb_snt_x2.o [1]
+GPIO_ReadInputDataBit   0x08000c09    0xe  Code  Gb  stm32w108xx_gpio.o [1]
+GPIO_ResetBits          0x08000c1b    0x4  Code  Gb  stm32w108xx_gpio.o [1]
+GPIO_SetBits            0x08000c17    0x4  Code  Gb  stm32w108xx_gpio.o [1]
+HardFault_Handler       0x08006da1    0x2  Code  Gb  stm32W108xx_it.o [1]
+Hello_counter           0x20000ff9    0x1  Data  Gb  routing_OEDSR.o [1]
+I2C_GenerateSTART       0x08002275    0xa  Code  Gb  stm32w108xx_sc.o [1]
+I2C_GenerateSTOP        0x0800227f    0xa  Code  Gb  stm32w108xx_sc.o [1]
+I2C_GetFlagStatus       0x080022d9    0xe  Code  Gb  stm32w108xx_sc.o [1]
+I2C_Send7bitAddress     0x08002289   0x1e  Code  Gb  stm32w108xx_sc.o [1]
+I2C_SendData            0x080022a7   0x32  Code  Gb  stm32w108xx_sc.o [1]
+LoadInt                 0x080010e7   0x4c  Code  Lc  xprintfsmall.o [3]
+MAC_RE_IRQHandler       0x08006dc9    0x4  Code  Gb  stm32W108xx_it.o [1]
+MAC_TIM_IRQHandler      0x08006dc1    0x4  Code  Gb  stm32W108xx_it.o [1]
+MAC_TR_IRQHandler       0x08006dc5    0x4  Code  Gb  stm32W108xx_it.o [1]
+MMCR_send_DATA_base     0x08003ecd   0x3a  Code  Gb  routing_MMCR.o [1]
+MNG_IRQHandler          0x08006db5    0x4  Code  Gb  stm32W108xx_it.o [1]
+MemManage_Handler       0x08006da3    0x2  Code  Gb  stm32W108xx_it.o [1]
+NMI_Handler             0x08006d9f    0x2  Code  Gb  stm32W108xx_it.o [1]
+NVIC_Init               0x08002815   0x58  Code  Gb  stm32w108xx_misc.o [1]
+Neighborhood            0x20000648  0x140  Data  Gb  routing_MMCR_MPR_select.o [1]
+NodeConfigure           0x08001a55   0x8e  Code  Gb  Application.o [1]
+Nvdd                    0x2000094a    0x2  Data  Lc  hal_adc.o [1]
+Nvss                    0x20000960    0x2  Data  Lc  hal_adc.o [1]
+OEDSR_control_bit       0x200014ad    0x1  Data  Gb  routing.o [1]
+OEDSR_send_DATA_base    0x080032ef   0x60  Code  Gb  routing_OEDSR.o [1]
+OWInit                  0x08000251   0x80  Code  Gb  OneWire.o [1]
+OWInput                 0x080002d1    0xc  Code  Gb  OneWire.o [1]
+OWInterrupts            0x08000319    0x4  Code  Lc  OneWire.o [1]
+OWNoInterrupts          0x08000315    0x4  Code  Lc  OneWire.o [1]
+OWOutput                0x080002dd    0xa  Code  Gb  OneWire.o [1]
+OWRead                  0x08000431   0x1c  Code  Gb  OneWire.o [1]
+OWReadPin               0x080002f5    0xe  Code  Gb  OneWire.o [1]
+OWRead_bit              0x080003c5   0x36  Code  Gb  OneWire.o [1]
+OWReset                 0x0800031d   0x56  Code  Gb  OneWire.o [1]
+OWReset_search          0x0800044d   0x1c  Code  Gb  OneWire.o [1]
+OWSearch                0x08000469   0xde  Code  Gb  OneWire.o [1]
+OWWrite                 0x080003ff   0x2e  Code  Gb  OneWire.o [1]
+OWWriteHigh             0x08000303    0x8  Code  Gb  OneWire.o [1]
+OWWriteLow              0x0800030b    0x8  Code  Gb  OneWire.o [1]
+OWWrite_bit             0x08000373   0x4e  Code  Gb  OneWire.o [1]
+OneWire                 0x20000410   0x24  Data  Gb  app_temp_1wire_main.o [1]
+PendSV_Handler          0x08006dad    0x4  Code  Gb  stm32W108xx_it.o [1]
+Q_head                  0x20000b74    0x1  Data  Gb  Q_Droptail.o [1]
+Q_table                 0x20000b78    0xc  Data  Gb  Q_Droptail.o [1]
+Q_tail                  0x20000b75    0x1  Data  Gb  Q_Droptail.o [1]
+RAM_BLOCK$$Base         0x20000000          --   Gb  - Linker created -
+RAM_BLOCK$$Limit        0x200014bc          --   Gb  - Linker created -
+RREP_counter            0x200014b1    0x1  Data  Gb  routing.o [1]
+RREQ_counter            0x200014b0    0x1  Data  Gb  routing.o [1]
+Region$$Table$$Base     0x08006e94          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08006eb4          --   Gb  - Linker created -
+Routing_AODV            0x08002e97   0x84  Code  Gb  routing_AODV.o [1]
+SC1_IRQHandler          0x08006dbd    0x4  Code  Gb  stm32W108xx_it.o [1]
+SLPTIM_IRQHandler       0x08006db9    0x4  Code  Gb  stm32W108xx_it.o [1]
+STM_EVAL_COMInit        0x0800131d   0x62  Code  Gb  mb_snt_x2.o [1]
+STM_EVAL_LEDInit        0x08001239   0x26  Code  Gb  mb_snt_x2.o [1]
+STM_EVAL_LEDOff         0x08001271   0x12  Code  Gb  mb_snt_x2.o [1]
+STM_EVAL_LEDOn          0x0800125f   0x12  Code  Gb  mb_snt_x2.o [1]
+STM_EVAL_LEDToggle      0x08001283   0x16  Code  Gb  mb_snt_x2.o [1]
+STM_EVAL_PBInit         0x08001299   0x84  Code  Gb  mb_snt_x2.o [1]
+ST_RadioDataPendingLongIdIsrCallback
+                        0x080051d9    0x4  Code  Gb  mote.o [1]
+ST_RadioDataPendingShortIdIsrCallback
+                        0x080051d5    0x4  Code  Gb  mote.o [1]
+ST_RadioEnableOverflowNotification
+                        0x08002b25    0x4  Code  Gb  phy-library.o [7]
+ST_RadioGetEui64        0x08002b1f    0x2  Code  Gb  phy-library.o [7]
+ST_RadioGetPower        0x08002b13    0x4  Code  Gb  phy-library.o [7]
+ST_RadioGetRandomNumbers
+                        0x08002b29    0x4  Code  Gb  phy-library.o [7]
+ST_RadioInit            0x08002af9    0xa  Code  Gb  phy-library.o [7]
+ST_RadioMacTimerCompareIsrCallback
+                        0x080051f7    0x2  Code  Gb  mote.o [1]
+ST_RadioOverflowIsrCallback
+                        0x080051dd   0x18  Code  Gb  mote.o [1]
+ST_RadioReceiveIsrCallback
+                        0x08005187   0x4e  Code  Gb  mote.o [1]
+ST_RadioSetChannel      0x08002b03    0x4  Code  Gb  phy-library.o [7]
+ST_RadioSetNodeId       0x08002b17    0x4  Code  Gb  phy-library.o [7]
+ST_RadioSetPanId        0x08002b1b    0x4  Code  Gb  phy-library.o [7]
+ST_RadioSetPower        0x08002b0f    0x4  Code  Gb  phy-library.o [7]
+ST_RadioSetPowerMode    0x08002b2d    0x4  Code  Gb  phy-library.o [7]
+ST_RadioSfdSentIsrCallback
+                        0x080051f5    0x2  Code  Gb  mote.o [1]
+ST_RadioTransmit        0x08002b07    0x4  Code  Gb  phy-library.o [7]
+ST_RadioTransmitCompleteIsrCallback
+                        0x0800421f   0x8e  Code  Gb  STM32W_Radio.o [1]
+SVC_Handler             0x08006da9    0x2  Code  Gb  stm32W108xx_it.o [1]
+Select_counter          0x20000ff8    0x1  Data  Gb  routing_OEDSR.o [1]
+SysTick_Handler         0x08006db1    0x4  Code  Gb  stm32W108xx_it.o [1]
+TOKEN_MFG_1V8_REG_VOLTAGE
+                        0x0800054e    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_ANALOG_TRIM_BOOST
+                        0x08000548    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_ANALOG_TRIM_BOTH
+                        0x0800054a    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_ANALOG_TRIM_NORMAL
+                        0x08000546    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_EUI_64        0x08000556    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_PHY_CONFIG    0x08000552    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_REG_TRIM      0x0800054c    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_SYNTH_FREQ_OFFSET
+                        0x08000554    0x2  Data  Gb  mfg-token.o [1]
+TOKEN_MFG_TEMP_CAL      0x08000550    0x2  Data  Gb  mfg-token.o [1]
+UART_Cmd                0x08002235   0x1c  Code  Gb  stm32w108xx_sc.o [1]
+UART_ITConfig           0x08002251   0x12  Code  Gb  stm32w108xx_sc.o [1]
+UART_Init               0x080021cd   0x68  Code  Gb  stm32w108xx_sc.o [1]
+UART_TriggerEventConfig
+                        0x08002263   0x12  Code  Gb  stm32w108xx_sc.o [1]
+UsageFault_Handler      0x08006da7    0x2  Code  Gb  stm32W108xx_it.o [1]
+_LitobSmall             0x08001133   0xce  Code  Lc  xprintfsmall.o [3]
+_PrintfSmall            0x08000d61  0x380  Code  Gb  xprintfsmall.o [3]
+_Prout                  0x08006ddd   0x16  Code  Gb  xprout.o [3]
+_PutcharsSmall          0x08001201   0x2e  Code  Lc  xprintfsmall.o [3]
+_SProut                 0x08000c1f    0xa  Code  Gb  xsprout.o [3]
+__aeabi_assert          0x0800684d   0x24  Code  Gb  ABIassert.o [6]
+__aeabi_memclr          0x08005785         Code  Gb  ABImemclr.o [5]
+__aeabi_memset4         0x080042fd         Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x080042fd         Code  Gb  ABImemset48.o [5]
+__cmain                 0x08006d25         Code  Gb  cmain.o [5]
+__exit                  0x08006b15   0x14  Code  Gb  exit.o [6]
+__iar_Memchr            0x08002741         Code  Gb  memchr.o [5]
+__iar_Memset4_word      0x08004305         Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x08004305         Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x0800695d         Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x080026f1         Code  Gb  strchr.o [5]
+__iar_data_init3        0x08006d41   0x28  Code  Gb  data_init.o [5]
+__iar_packbits_init_single3
+                        0x08006e5b   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x08006dd1         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x08005b2d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08005b4d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08005b4d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_memcmp  0x08005ba5         Code  Gb  memcmp_unaligned.o [5]
+__iar_zero_init3        0x08006e1b   0x40  Code  Gb  zero_init3.o [5]
+__io_getcharNonBlocking
+                        0x080067c5   0x14  Code  Gb  hal_uart.o [1]
+__low_level_init        0x08006bb9   0xa2  Code  Gb  low_level_init.o [1]
+__read                  0x0800677d   0x48  Code  Gb  hal_uart.o [1]
+__vector_table          0x08000000         Data  Gb  startup_stm32w108xx.o [1]
+__write                 0x0800673d   0x40  Code  Gb  hal_uart.o [1]
+_call_main              0x08006d31         Code  Gb  cmain.o [5]
+_exit                   0x08006d6d         Code  Gb  cexit.o [5]
+_main                   0x08006d3b         Code  Gb  cmain.o [5]
+abort                   0x080066db    0x6  Code  Gb  abort.o [3]
+abs                     0x08006b0d    0x8  Code  Gb  abs.o [3]
+ack_temp_add            0x08002fe9   0x4e  Code  Gb  routing_OEDSR.o [1]
+ack_temp_addr_          0x20001014   0x20  Data  Gb  routing_OEDSR.o [1]
+ack_temp_analyse        0x08003037   0x2e  Code  Gb  routing_OEDSR.o [1]
+ack_temp_free_          0x20000ff7    0x1  Data  Gb  routing_OEDSR.o [1]
+ack_temp_get_cost       0x08003065   0x2c  Code  Gb  routing_OEDSR.o [1]
+ack_temp_link_cost_     0x20001034   0x20  Data  Gb  routing_OEDSR.o [1]
+actual_power            0x200005b1    0x1  Data  Gb  Phy_layer.o [1]
+adcCalibrated           0x20000947    0x1  Data  Lc  hal_adc.o [1]
+adcConfig               0x20000958    0x8  Data  Lc  hal_adc.o [1]
+adcData                 0x20000948    0x2  Data  Lc  hal_adc.o [1]
+adcPendingConversion    0x20000945    0x1  Data  Lc  hal_adc.o [1]
+adcPendingRequests      0x20000944    0x1  Data  Lc  hal_adc.o [1]
+adcReadingValid         0x20000946    0x1  Data  Lc  hal_adc.o [1]
+adcReadings             0x20000950    0x8  Data  Lc  hal_adc.o [1]
+adcStaticConfig         0x2000094c    0x2  Data  Lc  hal_adc.o [1]
+adc_value               0x200011dc    0x2  Data  Gb  src_8bit_adc.o [1]
+add_one_hop_node        0x080036f1   0x5c  Code  Gb  routing_MMCR_MPR_select.o [1]
+add_two_hop_node        0x08003757   0x7e  Code  Gb  routing_MMCR_MPR_select.o [1]
+addr                    0x20000434    0x8  Data  Gb  app_temp_1wire_main.o [1]
+addressMatchingEnabled  0x2000090d    0x1  Data  Lc  phy-common.o [7]
+adjustLna               0x08006531    0x8  Code  Lc  analogue-lna.o [7]
+adjustVco               0x080061a5   0x22  Code  Lc  analogue-vco.o [7]
+aodv_dropped_link       0x08002f9d   0x12  Code  Gb  routing_AODV.o [1]
+app_beacon_count_       0x20000468    0x4  Data  Gb  Application.o [1]
+app_beam_count_         0x20000464    0x4  Data  Gb  Application.o [1]
+app_beam_seq            0x2000044e    0x2  Data  Gb  Application.o [1]
+app_count_drop_pkts_    0x20000450    0x4  Data  Gb  Application.o [1]
+app_count_gen_pkts_     0x20000460    0x4  Data  Gb  Application.o [1]
+app_count_lost_pkts_    0x20000454    0x4  Data  Gb  Application.o [1]
+app_count_recv_pkts_    0x2000045c    0x4  Data  Gb  Application.o [1]
+app_count_sent_pkts_    0x20000458    0x4  Data  Gb  Application.o [1]
+app_drop_pkt            0x08001b79    0xa  Code  Gb  Application.o [1]
+app_generate_pkt_       0x20000449    0x1  Data  Gb  Application.o [1]
+app_init                0x080018b9   0x3a  Code  Gb  Application.o [1]
+app_last_BS_contact_    0x2000046c    0x4  Data  Gb  Application.o [1]
+app_loop                0x080018f5   0x24  Code  Gb  Application.o [1]
+app_received_beacon     0x08001bf3   0x16  Code  Gb  Application.o [1]
+app_recvBEAM            0x080019f3   0x62  Code  Gb  Application.o [1]
+app_recvConfigSensor    0x08001949   0xaa  Code  Gb  Application.o [1]
+app_recvStartData       0x08001941    0x8  Code  Gb  Application.o [1]
+app_recvStopData        0x08001919   0x28  Code  Gb  Application.o [1]
+app_repeat_beam         0x2000044b    0x1  Data  Gb  Application.o [1]
+app_search_switch_channel
+                        0x08001bb7   0x3c  Code  Gb  Application.o [1]
+app_send_join           0x08001c09   0xae  Code  Gb  Application.o [1]
+app_start_search_channel
+                        0x08001b83   0x34  Code  Gb  Application.o [1]
+app_temp_1wire_init     0x08000085   0x32  Code  Gb  app_temp_1wire_main.o [1]
+app_temp_1wire_loop     0x080000b7   0x88  Code  Gb  app_temp_1wire_main.o [1]
+app_temp_lcd_disp       0x08000159   0x8e  Code  Gb  app_temp_1wire_main.o [1]
+app_tx_data_mode_       0x20000448    0x1  Data  Gb  Application.o [1]
+autoAckEnabled          0x2000090e    0x1  Data  Lc  phy-common.o [7]
+beforelast_id           0x20000aea    0x1  Data  Gb  mote.o [1]
+biasTrim                0x2000092a    0x2  Data  Gb  hal_clocks.o [1]
+blOffset                0x08006d10    0x4  Data  Lc  low_level_init.o [1]
+boostTxPowerMax         0x200008fc    0x8  Data  Gb  analogue.o [7]
+bothTokSerialRegId      0x08005cc4    0x8  Data  Gb  analogue-cell-bias.o [7]
+buffer0                 0x20000bbc  0x320  Data  Gb  Queuing.o [1]
+buffer_age_table        0x20000b9c   0x20  Data  Gb  Queuing.o [1]
+buffer_empty_slots      0x20000b88    0x8  Data  Gb  Queuing.o [1]
+buffer_wp_table         0x20000b90    0x8  Data  Gb  Queuing.o [1]
+calAdcTempOffset        0x200014b5    0x1  Data  Lc  phy.o [7]
+calAdcTempOffsetValid   0x200014b4    0x1  Data  Lc  phy.o [7]
+calDisableAdc           0x08002625    0xc  Code  Gb  cal_adc.o [7]
+calModDacWithPaEnableMask
+                        0x200014a2    0x2  Data  Lc  analogue-mod-dac.o [7]
+calModDacWithSpreading  0x200014a0    0x1  Data  Lc  analogue-mod-dac.o [7]
+calReadAdcAtestAWithSpreading
+                        0x08006263  0x10c  Code  Lc  analogue-mod-dac.o [7]
+calReadAdcBlocking      0x080025dd   0x3c  Code  Gb  cal_adc.o [7]
+calStartAdcConversion   0x080025ad   0x30  Code  Gb  cal_adc.o [7]
+calStartAndReadAdc      0x08002619    0xc  Code  Gb  cal_adc.o [7]
+ccaAttempt              0x20000915    0x1  Data  Gb  phy-common.o [7]
+count_ack_              0x200008d0    0x4  Data  Gb  STM32W_Radio.o [1]
+count_cca_              0x200008c8    0x4  Data  Gb  STM32W_Radio.o [1]
+count_nack_             0x200008cc    0x4  Data  Gb  STM32W_Radio.o [1]
+count_received_         0x20000adc    0x4  Data  Gb  hio_xbee.o [1]
+count_received_xbee_ack_
+                        0x20000ae0    0x4  Data  Gb  hio_xbee.o [1]
+count_resend_           0x200008d8    0x4  Data  Gb  STM32W_Radio.o [1]
+count_stalled           0x200008b0    0x4  Data  Gb  STM32W_Radio.o [1]
+count_succ_             0x200008c4    0x4  Data  Gb  STM32W_Radio.o [1]
+cs_bcast_tidx_          0x2000047a    0x1  Data  Gb  ChannelSwitching.o [1]
+cs_end_switch           0x08001d49   0x30  Code  Gb  ChannelSwitching.o [1]
+cs_end_tidx_            0x2000047b    0x1  Data  Gb  ChannelSwitching.o [1]
+cs_init                 0x08001d15    0x2  Code  Gb  ChannelSwitching.o [1]
+cs_next_channel_        0x20000478    0x1  Data  Gb  ChannelSwitching.o [1]
+cs_pkt_id               0x20000479    0x1  Data  Gb  ChannelSwitching.o [1]
+cs_power_up             0x08001cf9   0x1c  Code  Gb  ChannelSwitching.o [1]
+cs_recv_switching_request
+                        0x08001e11   0x40  Code  Gb  ChannelSwitching.o [1]
+cs_req_switch           0x08001d17   0x32  Code  Gb  ChannelSwitching.o [1]
+cs_send_req_Switch      0x08001d79   0x8e  Code  Gb  ChannelSwitching.o [1]
+cs_switch_time_         0x20000480    0x4  Data  Gb  ChannelSwitching.o [1]
+cs_switching_timeout_   0x2000047c    0x4  Data  Gb  ChannelSwitching.o [1]
+currentReceiveChannel   0x20001370    0x1  Data  Lc  phy.o [7]
+current_loop_idx        0x200007a3    0x1  Data  Gb  sch_basic.o [1]
+current_tx_power_       0x200005b0    0x1  Data  Gb  Phy_layer.o [1]
+data                    0x20000400    0x2  Data  Gb  app_temp_1wire_main.o [1]
+data_forward_control_   0x200014af    0x1  Data  Gb  routing.o [1]
+determineState          0x08005cd9   0x7e  Code  Lc  nvm.o [1]
+deviceIsCoordinator     0x2000090c    0x1  Data  Lc  phy-common.o [7]
+disable_node            0x08001b03   0x50  Code  Gb  Application.o [1]
+droppedAckWorkarounds   0x2000091c    0x4  Data  Gb  phy-common.o [7]
+edCcaThreshold          0x2000090f    0x1  Data  Lc  phy-common.o [7]
+enableDataTx_           0x200004a4    0x1  Data  Gb  main.o [1]
+enable_node             0x08001b53   0x26  Code  Gb  Application.o [1]
+energy_depleted_control_
+                        0x200004aa    0x1  Data  Gb  main.o [1]
+erasePage               0x08005e41   0x36  Code  Lc  nvm.o [1]
+exit                    0x08006d69    0x4  Code  Gb  exit.o [3]
+fibToStStatus           0x08006b04    0x8  Data  Lc  hal_flash.o [1]
+filterForceReCal        0x20000932    0x1  Data  Gb  analogue.o [7]
+find_link               0x080037d5   0x2e  Code  Gb  routing_MMCR_MPR_select.o [1]
+find_one_hop_node       0x08003699   0x2c  Code  Gb  routing_MMCR_MPR_select.o [1]
+find_route              0x08003137   0x28  Code  Gb  routing_OEDSR.o [1]
+find_two_hop_node       0x080036c5   0x2c  Code  Gb  routing_MMCR_MPR_select.o [1]
+flashEraseIsActive      0x200014a9    0x1  Data  Gb  hal_flash.o [1]
+forceSleepTmrCnt        0x200011c0    0x1  Data  Gb  sleep.o [1]
+framePendingBitSetTime  0x2000137c    0x4  Data  Gb  phy.o [7]
+framePendingSetInOutgoingAck
+                        0x20001372    0x2  Data  Lc  phy.o [7]
+getRandomBackoff        0x08004b5b   0x3e  Code  Gb  phy-common.o [7]
+get_dst_mac_base        0x0800578d   0x18  Code  Gb  packet.o [1]
+get_free_timeout        0x080007b9   0x28  Code  Gb  sch_basic.o [1]
+get_next_hop            0x0800315f   0x18  Code  Gb  routing_OEDSR.o [1]
+hPacketTimeout          0x080041e1   0x3e  Code  Gb  STM32W_Radio.o [1]
+halAdcCalibrate         0x08002a9b   0x4a  Code  Gb  hal_adc.o [1]
+halAdcIsr               0x0800287d   0x66  Code  Gb  hal_adc.o [1]
+halBoardPowerUp         0x08005a9d   0x28  Code  Gb  board.o [1]
+halCommonBlockUntilXtal
+                        0x08005a19   0x42  Code  Gb  hal_clocks.o [1]
+halCommonCalibratePads  0x08000c29   0x20  Code  Gb  micro-common-internal.o [1]
+halCommonDelayMicroseconds
+                        0x08000d1d   0x28  Code  Gb  micro-common-internal.o [1]
+halCommonGetInt32uMillisecondTick
+                        0x08000559   0x24  Code  Gb  system-timer.o [1]
+halCommonGetRandom      0x0800439b   0x1c  Code  Gb  micro.o [1]
+halCommonMemCompare     0x080043bb    0xa  Code  Gb  micro.o [1]
+halCommonMemCopy        0x080043b7    0x4  Code  Gb  micro.o [1]
+halCommonReadFromNvm    0x08005d57   0xd2  Code  Gb  nvm.o [1]
+halCommonSeedRandom     0x08004373   0x18  Code  Gb  micro.o [1]
+halCommonSwitchToXtal   0x080059f1   0x28  Code  Gb  hal_clocks.o [1]
+halCommonTryToSwitchToXtal
+                        0x08005939   0xb8  Code  Gb  hal_clocks.o [1]
+halCommonWriteToNvm     0x08005e77  0x1ac  Code  Gb  nvm.o [1]
+halFixedAddressTable    0x08040000   0x2c  Data  Gb  low_level_init.o [1]
+halInit                 0x08004341   0x32  Code  Gb  micro.o [1]
+halInternalCalibrateFastRc
+                        0x080058db   0x22  Code  Gb  hal_clocks.o [1]
+halInternalCalibrateSlowRc
+                        0x0800586d   0x6e  Code  Gb  hal_clocks.o [1]
+halInternalFlashErase   0x080069df   0x52  Code  Gb  hal_flash.o [1]
+halInternalFlashWrite   0x08006a31   0x4e  Code  Gb  hal_flash.o [1]
+halInternalGetMfgTokenData
+                        0x08002689   0x5c  Code  Gb  mfg-token.o [1]
+halInternalGetVreg      0x08000c9d   0x74  Code  Gb  micro-common-internal.o [1]
+halInternalIdleSleep    0x08004339         Code  Gb  context-switch.o [1]
+halInternalInitAdc      0x0800293f   0x6e  Code  Gb  hal_adc.o [1]
+halInternalInitMgmtIsrLo
+                        0x080058fd   0x16  Code  Gb  hal_clocks.o [1]
+halInternalSetRegTrim   0x08000c49   0x54  Code  Gb  micro-common-internal.o [1]
+halInternalStartSystemTimer
+                        0x08005ae9   0x2e  Code  Gb  micro-common.o [1]
+halInternalSwitchToXtal24M
+                        0x08005913   0x26  Code  Gb  hal_clocks.o [1]
+halInternalWakeEvent    0x200011c4    0x4  Data  Lc  sleep.o [1]
+halManagementIsr        0x080043c5   0x1c  Code  Gb  micro.o [1]
+halMeasureVdd           0x08002631   0x42  Code  Gb  cal_adc.o [7]
+halPendSvIsr            0x08006b6d         Code  Gb  context-switch.o [1]
+halPendSvSaveContext    0x2000093c         Data  Gb  context-switch.o [1]
+halReadAdcBlocking      0x08002a83   0x18  Code  Gb  hal_adc.o [1]
+halRequestAdcData       0x08002a03   0x80  Code  Gb  hal_adc.o [1]
+halSc1Isr               0x080067d9   0x50  Code  Gb  hal_uart.o [1]
+halSleepTimerIsr        0x0800057d    0xe  Code  Gb  system-timer.o [1]
+halStackMacTimerIsr     0x08002b35   0x1a  Code  Gb  phy-library.o [7]
+halStartAdcConversion   0x080029ad   0x56  Code  Gb  hal_adc.o [1]
+halSysTickIsr           0x080057e3   0x3e  Code  Gb  hal_clocks.o [1]
+halTriggerContextRestore
+                        0x08006ba5         Code  Gb  context-switch.o [1]
+hio_recv_packet         0x08002377  0x142  Code  Gb  hio_xbee.o [1]
+hio_xbee_init           0x080022e9   0x36  Code  Gb  hio_xbee.o [1]
+hio_xbee_loop           0x08002321   0x56  Code  Gb  hio_xbee.o [1]
+i2c_timeout_event       0x20000ae4    0x4  Data  Gb  main.o [1]
+idleDelayMicroseconds   0x080057a5   0x3e  Code  Gb  hal_clocks.o [1]
+lastBackoff             0x2000091a    0x2  Data  Gb  phy-common.o [7]
+lastTransmitPacketIsDataPoll
+                        0x20000913    0x1  Data  Gb  phy-common.o [7]
+lastTxSfdTime           0x20000920    0x4  Data  Gb  phy-common.o [7]
+lastVcoCalChannel       0x200014b9    0x1  Data  Lc  analogue-vco.o [7]
+lastVcoValue            0x200014ba    0x1  Data  Lc  analogue-vco.o [7]
+last_RREP_src           0x200005ec    0x2  Data  Gb  routing_AODV.o [1]
+last_config_rssi_rcv_   0x200014a8    0x1  Data  Gb  Application.o [1]
+last_id                 0x20000aeb    0x1  Data  Gb  mote.o [1]
+last_status_            0x200008a2    0x1  Data  Gb  STM32W_Radio.o [1]
+last_successful_frame_id_
+                        0x200004ae    0x1  Data  Gb  main.o [1]
+lcd_cmd                 0x08000955   0x9e  Code  Gb  main.o [1]
+lcd_count               0x2000040c    0x4  Data  Gb  app_temp_1wire_main.o [1]
+lcd_printStr            0x08000a05   0xd0  Code  Gb  main.o [1]
+lcd_setCursor           0x08000af5    0xc  Code  Gb  main.o [1]
+lcd_task_name           0x20000444    0x4  Data  Gb  app_temp_1wire_main.o [1]
+lcd_timeout             0x20000402    0x1  Data  Gb  app_temp_1wire_main.o [1]
+lnaForceReCal           0x20000936    0x2  Data  Gb  analogue.o [7]
+low_level_init2         0x08006c5d   0x7a  Code  Lc  low_level_init.o [1]
+main                    0x080051f9   0x8e  Code  Gb  mote.o [1]
+main_arm                0x08000b23   0x42  Code  Gb  main.o [1]
+main_init               0x08000b01   0x22  Code  Gb  main.o [1]
+main_power_up           0x080008d5   0x80  Code  Gb  main.o [1]
+memchr                  0x08002741         Code  Gb  memchr.o [5]
+mmcr_Hello_countdown_   0x20000623    0x1  Data  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_dropped_link       0x08003f25   0x88  Code  Gb  routing_MMCR.o [1]
+mmcr_hello_tidx         0x20000620    0x1  Data  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_hello_timeout      0x08003bd9   0x70  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_init_rtable_from_topology
+                        0x08003cfb   0x4c  Code  Gb  routing_MMCR.o [1]
+mmcr_neighbor_analyse   0x08003e53   0x7a  Code  Gb  routing_MMCR.o [1]
+mmcr_neighbor_clear     0x08003647   0x44  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_pkt_id             0x20000939    0x1  Data  Gb  routing_MMCR.o [1]
+mmcr_recvACK            0x080039f7   0xb2  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_recvAcceptData     0x08003f07   0x1e  Code  Gb  routing_MMCR.o [1]
+mmcr_recvCHSW           0x08003d7d    0xc  Code  Gb  routing_MMCR.o [1]
+mmcr_recvHELLO          0x08003897   0xbe  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_recvTC             0x08003b45   0x5e  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_recv_routing_msg   0x08003d47   0x36  Code  Gb  routing_MMCR.o [1]
+mmcr_routeStart_tidx_   0x20000621    0x1  Data  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_sendACK            0x08003959   0x86  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_sendHELLO          0x0800384b   0x4c  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_sendTC             0x08003aa9   0x9c  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_set_route          0x08003d89   0xc2  Code  Gb  routing_MMCR.o [1]
+mmcr_set_tx_timeout     0x08003bad   0x2c  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_startRouteSearch   0x08003803   0x24  Code  Gb  routing_MMCR_MPR_select.o [1]
+mmcr_state_             0x20000622    0x1  Data  Gb  routing_MMCR_MPR_select.o [1]
+modDacForceReCal        0x20000934    0x2  Data  Gb  analogue.o [7]
+mod_cs                  0x20000484    0x4  Data  Gb  ChannelSwitching.o [1]
+mpr_count_              0x20000f94    0x1  Data  Gb  routing_MMCR_MPR_select.o [1]
+mpr_idx                 0x20000f98    0xc  Data  Gb  routing_MMCR_MPR_select.o [1]
+mpr_select              0x080034c7  0x168  Code  Gb  routing_MMCR_MPR_select.o [1]
+my_AODV_index           0x200005ea    0x2  Data  Gb  routing_AODV.o [1]
+my_CH_                  0x200004b0    0x2  Data  Gb  main.o [1]
+my_RF_retries_          0x200004a9    0x1  Data  Gb  main.o [1]
+my_addr16_              0x200008aa    0x2  Data  Gb  STM32W_Radio.o [1]
+my_addr8_               0x200008a1    0x1  Data  Gb  STM32W_Radio.o [1]
+my_backoff_             0x200004a7    0x1  Data  Gb  main.o [1]
+my_distance_            0x200004b8    0x4  Data  Gb  main.o [1]
+my_energy_              0x200004b4    0x4  Data  Gb  main.o [1]
+my_protocol_            0x200004a5    0x1  Data  Gb  main.o [1]
+my_queue_               0x20000b85    0x1  Data  Gb  Queuing.o [1]
+my_rf_channel_          0x200005ae    0x1  Data  Gb  Phy_layer.o [1]
+my_rssi_threshold_      0x200004a8    0x1  Data  Gb  main.o [1]
+my_scheduling_          0x200004a6    0x1  Data  Gb  main.o [1]
+my_tx_power_            0x200005af    0x1  Data  Gb  Phy_layer.o [1]
+my_tx_timeout_          0x200004bc    0x4  Data  Gb  main.o [1]
+n_samples_per_packet_   0x2000044a    0x1  Data  Gb  Application.o [1]
+network_search_mode_    0x2000044c    0x1  Data  Gb  Application.o [1]
+normalOrBoostTokSerialRegId
+                        0x08005ccc    0xc  Data  Gb  analogue-cell-bias.o [7]
+nullEui                 0x080026e8    0x8  Data  Lc  mfg-token.o [1]
+num_routes              0x200005e8    0x2  Data  Gb  routing_AODV.o [1]
+nvmStorageLeft          0x0801f800  0x400  Data  Gb  nvm.o [1]
+nvmStorageRight         0x0801fc00  0x400  Data  Gb  nvm.o [1]
+oedsr_Hello_countdown_  0x20000ff6    0x1  Data  Gb  routing_OEDSR.o [1]
+oedsr_dropped_link      0x080033dd   0x16  Code  Gb  routing_OEDSR.o [1]
+oedsr_hello_timeout_    0x2000079c    0x4  Data  Gb  routing_OEDSR.o [1]
+oedsr_hello_timeout_enabled_
+                        0x20000798    0x1  Data  Gb  routing_OEDSR.o [1]
+oedsr_hello_timoeout    0x08003405   0x54  Code  Gb  routing_OEDSR.o [1]
+oedsr_loop              0x080030c5   0x28  Code  Gb  routing_OEDSR.o [1]
+oedsr_set_route         0x080030ed   0x4a  Code  Gb  routing_OEDSR.o [1]
+oedsr_set_tx_timeout    0x08003459   0x14  Code  Gb  routing_OEDSR.o [1]
+oedsr_start_routing     0x080031a1   0x14  Code  Gb  routing_OEDSR.o [1]
+oedsr_state_            0x20000ff5    0x1  Data  Gb  routing_OEDSR.o [1]
+paPresent               0x200008fa    0x1  Data  Lc  analogue.o [7]
+packet                  0x200009e8   0x74  Data  Gb  hio_xbee.o [1]
+packetReceived          0x20000ae8    0x1  Data  Gb  mote.o [1]
+packetRxTime            0x20001380    0x4  Data  Gb  phy.o [7]
+phy_backoff_counter_    0x200005c0    0x4  Data  Gb  Phy_layer.o [1]
+phy_busyThreshold_      0x200005ac    0x1  Data  Gb  Phy_layer.o [1]
+phy_count_busy          0x200005b8    0x4  Data  Gb  Phy_layer.o [1]
+phy_count_free          0x200005b4    0x4  Data  Gb  Phy_layer.o [1]
+phy_current_channel_    0x200005ad    0x1  Data  Gb  Phy_layer.o [1]
+phy_cw_                 0x200005c4    0x4  Data  Gb  Phy_layer.o [1]
+phy_init_scan_params    0x080014d5   0x28  Code  Gb  Phy_layer.o [1]
+phy_scanTimestamp_      0x200005bc    0x4  Data  Gb  Phy_layer.o [1]
+phy_sent_timeout_       0x200005c8    0x4  Data  Gb  Phy_layer.o [1]
+phy_set_RF_channel      0x0800151f    0x8  Code  Gb  Phy_layer.o [1]
+phy_set_power_level     0x080014fd   0x22  Code  Gb  Phy_layer.o [1]
+pkt_to_sent_id          0x200004ac    0x1  Data  Gb  main.o [1]
+pkt_to_sent_len         0x200004ad    0x1  Data  Gb  main.o [1]
+powerLevelSettings      0x08004b08    0x4  Data  Gb  analogue.o [7]
+previousLoValue         0x20000928    0x1  Data  Gb  hal_clocks.o [1]
+previousTemperature     0x200014b6    0x1  Data  Lc  phy.o [7]
+previousTemperatureAvailable
+                        0x200014b7    0x1  Data  Lc  phy.o [7]
+print_timeouts          0x080007e1   0x2a  Code  Gb  sch_basic.o [1]
+printf                  0x080005a1   0x24  Code  Gb  printf.o [3]
+processRxAddressReceiveCompleteIsr
+                        0x08005407   0xac  Code  Lc  phy.o [7]
+processRxPacketCompleteIsr
+                        0x080054b3   0xfa  Code  Lc  phy.o [7]
+processSerialInput      0x08005141   0x46  Code  Gb  mote.o [1]
+ptiEnabled              0x2000090b    0x1  Data  Lc  phy-common.o [7]
+putchar                 0x08006df3   0x28  Code  Gb  putchar.o [3]
+que_Droptail_dequeue    0x08002bf1   0x24  Code  Gb  Q_Droptail.o [1]
+que_Droptail_enqueue    0x08002bc9   0x28  Code  Gb  Q_Droptail.o [1]
+que_Droptail_init       0x08002ba9   0x12  Code  Gb  Q_Droptail.o [1]
+que_Droptail_utilization
+                        0x08002bbb    0xe  Code  Gb  Q_Droptail.o [1]
+que_buffer_empty_slots_end_
+                        0x20000b84    0x1  Data  Gb  Queuing.o [1]
+que_deQpackets          0x080015ad   0x10  Code  Gb  Queuing.o [1]
+que_enQpacket           0x0800159d   0x10  Code  Gb  Queuing.o [1]
+que_get_empty_buffer_location
+                        0x08001559   0x2a  Code  Gb  Queuing.o [1]
+que_init                0x08001531   0x28  Code  Gb  Queuing.o [1]
+que_make_empty_buffer   0x08001583   0x1a  Code  Gb  Queuing.o [1]
+r_dst                   0x20000fa4   0x28  Data  Gb  routing_OEDSR.o [1]
+r_last_line             0x20000ff4    0x1  Data  Gb  routing_OEDSR.o [1]
+r_metric                0x20000ffc   0x14  Data  Gb  routing_OEDSR.o [1]
+r_next_hop              0x20000fcc   0x28  Data  Gb  routing_OEDSR.o [1]
+radioCheckCrc           0x2000093b    0x1  Data  Gb  phy-common.o [7]
+radioCurrentPowerStatus
+                        0x20000914    0x1  Data  Gb  phy-common.o [7]
+radioTransmitConfig     0x200004d8    0x8  Data  Gb  mote.o [1]
+radio_call_status       0x20000561    0x1  Data  Gb  mote.o [1]
+radio_dst               0x200008a6    0x2  Data  Gb  STM32W_Radio.o [1]
+radio_init              0x08003fd5   0x56  Code  Gb  STM32W_Radio.o [1]
+radio_loop              0x0800402d   0xf4  Code  Gb  STM32W_Radio.o [1]
+reCalibrateVref         0x200008fb    0x1  Data  Gb  analogue.o [7]
+recvACK                 0x08003297   0x58  Code  Gb  routing_OEDSR.o [1]
+recvAcceptData          0x0800334f   0x1e  Code  Gb  routing_OEDSR.o [1]
+recvDATA                0x08001733   0xa6  Code  Gb  routing.o [1]
+recvHELLO               0x08003219   0x20  Code  Gb  routing_OEDSR.o [1]
+recvSelect              0x080033c9   0x14  Code  Gb  routing_OEDSR.o [1]
+recvStopData            0x080015c5    0x8  Code  Gb  routing.o [1]
+regTrimBoostMode        0x200014aa    0x1  Data  Gb  micro-common-internal.o [1]
+release_pkt_in_tx       0x08000b65   0x14  Code  Gb  main.o [1]
+request_debug_packet_   0x20000ad8    0x1  Data  Gb  hio_xbee.o [1]
+request_debug_packet_dst_
+                        0x20000ada    0x2  Data  Gb  hio_xbee.o [1]
+result                  0x200005b2    0x1  Data  Gb  Phy_layer.o [1]
+result_1                0x200008a5    0x1  Data  Gb  STM32W_Radio.o [1]
+route_enable            0x200005d0    0x8  Data  Gb  routing_AODV.o [1]
+route_search_BS_        0x20001010    0x2  Data  Gb  routing_OEDSR.o [1]
+route_table_cost        0x200005e0    0x8  Data  Gb  routing_AODV.o [1]
+route_table_destination
+                        0x200005d8    0x8  Data  Gb  routing_AODV.o [1]
+route_table_direction   0x200005f0    0xc  Data  Gb  routing_AODV.o [1]
+route_table_index       0x200005fc    0xc  Data  Gb  routing_AODV.o [1]
+route_table_update_AODV
+                        0x08002e17   0x6e  Code  Gb  routing_AODV.o [1]
+routing_data_request    0x080016cb   0x22  Code  Gb  routing.o [1]
+routing_init            0x080015cd    0xc  Code  Gb  routing.o [1]
+routing_init_AODV       0x08002dd1   0x46  Code  Gb  routing_AODV.o [1]
+routing_init_MMCR       0x08003cd5   0x26  Code  Gb  routing_MMCR.o [1]
+routing_init_MPR_select
+                        0x080034ad   0x1a  Code  Gb  routing_MMCR_MPR_select.o [1]
+routing_init_OEDSR      0x08003091   0x32  Code  Gb  routing_OEDSR.o [1]
+routing_receive_packet  0x08001617   0xb4  Code  Gb  routing.o [1]
+routing_send_DATA_base  0x080016ed   0x46  Code  Gb  routing.o [1]
+routing_send_counters   0x080017d9    0xe  Code  Gb  routing.o [1]
+routing_set_routing_protocol
+                        0x080015d9   0x3e  Code  Gb  routing.o [1]
+routing_to_CH_base      0x080017e7   0x3e  Code  Gb  routing.o [1]
+rtable                  0x20000edc   0xb8  Data  Gb  routing_MMCR.o [1]
+rtc_adjust              0x20001054    0x1  Data  Gb  RTC.o [1]
+rtc_adjust_long         0x20001055    0x1  Data  Gb  RTC.o [1]
+rtc_init                0x0800147d   0x10  Code  Gb  RTC.o [1]
+rtc_skip_tick           0x20001056    0x1  Data  Gb  RTC.o [1]
+rtc_ticker              0x20001058    0x4  Data  Gb  RTC.o [1]
+rtc_time_set            0x0800148d   0x2c  Code  Gb  RTC.o [1]
+rtc_zero_tickers_       0x20001057    0x1  Data  Gb  RTC.o [1]
+rtr_MMCR_Hello_Phase    0x08003827   0x24  Code  Gb  routing_MMCR_MPR_select.o [1]
+rtr_add_neighbor        0x0800185b   0x22  Code  Gb  routing.o [1]
+rtr_dropped_link        0x08001841   0x1a  Code  Gb  routing.o [1]
+rtr_start_routing       0x0800187d    0xe  Code  Gb  routing.o [1]
+rxBuffer                0x20001384  0x114  Data  Lc  phy.o [7]
+rxHead                  0x20000962    0x2  Data  Gb  hal_uart.o [1]
+rxPacket                0x20000aec   0x80  Data  Gb  mote.o [1]
+rxPacketRSSI            0x20000ae9    0x1  Data  Gb  mote.o [1]
+rxQ                     0x20000968   0x80  Data  Gb  hal_uart.o [1]
+rxTail                  0x20000964    0x2  Data  Gb  hal_uart.o [1]
+rxUsed                  0x20000966    0x2  Data  Gb  hal_uart.o [1]
+rx_expected_length      0x20000ad4    0x2  Data  Gb  hio_xbee.o [1]
+rx_packet               0x20000a60   0x74  Data  Gb  hio_xbee.o [1]
+rx_state                0x20000a5c    0x1  Data  Gb  hio_xbee.o [1]
+rxpkt_oveflow_count_    0x20000b6c    0x4  Data  Gb  mote.o [1]
+rxpkt_wrong_count_      0x20000b70    0x4  Data  Gb  mote.o [1]
+sampleVcoTune           0x0800636f   0x44  Code  Gb  analogue-mod-dac.o [7]
+savedMSP                0x20000940         Data  Gb  context-switch.o [1]
+sch_add_loop            0x0800078d   0x2c  Code  Gb  sch_basic.o [1]
+sch_callback_context    0x200010d0   0x78  Data  Gb  sch_basic.o [1]
+sch_callback_funcs      0x20000820   0x78  Data  Gb  sch_basic.o [1]
+sch_callback_name       0x20001148   0x78  Data  Gb  sch_basic.o [1]
+sch_create_timeout      0x0800070d   0x80  Code  Gb  sch_basic.o [1]
+sch_init                0x0800061f    0x2  Code  Gb  sch_basic.o [1]
+sch_loop                0x08000621   0x80  Code  Gb  sch_basic.o [1]
+sch_loop_funcs          0x20001088   0x28  Data  Gb  sch_basic.o [1]
+sch_loop_funcs_on       0x2000107c    0xc  Data  Gb  sch_basic.o [1]
+sch_power_up            0x080005c5   0x5a  Code  Gb  sch_basic.o [1]
+sch_remove_timeout      0x080006a1   0x6c  Code  Gb  sch_basic.o [1]
+sch_timeout_count       0x200007a0    0x1  Data  Gb  sch_basic.o [1]
+sch_timeout_order       0x200010b0   0x20  Data  Gb  sch_basic.o [1]
+sch_timeout_state       0x2000105c   0x20  Data  Gb  sch_basic.o [1]
+sch_timeout_ticks       0x200007a8   0x78  Data  Gb  sch_basic.o [1]
+sch_tout_free           0x200007a2    0x1  Data  Gb  sch_basic.o [1]
+sch_tout_head           0x200007a1    0x1  Data  Gb  sch_basic.o [1]
+seed0                   0x2000092c    0x2  Data  Lc  micro.o [1]
+seed1                   0x2000092e    0x2  Data  Lc  micro.o [1]
+sendACK                 0x08003239   0x5e  Code  Gb  routing_OEDSR.o [1]
+sendHELLO               0x080031b5   0x64  Code  Gb  routing_OEDSR.o [1]
+sendPacketData          0x08004121   0xaa  Code  Gb  STM32W_Radio.o [1]
+sendPriorityPacket      0x080041cb   0x16  Code  Gb  STM32W_Radio.o [1]
+sendSelect              0x0800336d   0x5c  Code  Gb  routing_OEDSR.o [1]
+sendSerialData          0x08005109   0x38  Code  Gb  mote.o [1]
+send_PONG               0x080024c5   0x90  Code  Gb  hio_xbee.o [1]
+send_RERR               0x08002cb9    0x8  Code  Gb  routing_AODV.o [1]
+send_RREP               0x08002c5f   0x5a  Code  Gb  routing_AODV.o [1]
+send_RREQ               0x08002c19   0x46  Code  Gb  routing_AODV.o [1]
+send_aodv_counters      0x08002d5d   0x4e  Code  Gb  routing_AODV.o [1]
+sent_DATA_              0x200004ab    0x1  Data  Gb  main.o [1]
+sequence_no_            0x200014ab    0x1  Data  Gb  packet.o [1]
+serialRegData           0x2000134c   0x24  Data  Gb  analogue.o [7]
+setStackPointer         0x08006bb5    0x4  Code  Lc  low_level_init.o [1]
+setTxStepTime           0x08004483   0x34  Code  Lc  analogue.o [7]
+shift                   0x0800438b   0x10  Code  Lc  micro.o [1]
+sleepTimerInterruptOccurred
+                        0x2000130c    0x1  Data  Lc  system-timer.o [1]
+sleepTmrArtificalCnt    0x20001310    0x4  Data  Gb  system-timer.o [1]
+spreadModDac1           0x200014a4    0x2  Data  Gb  analogue-mod-dac.o [7]
+spreadModDac2           0x200014a6    0x2  Data  Gb  analogue-mod-dac.o [7]
+sprintf                 0x080008a1   0x34  Code  Gb  sprintf.o [3]
+src_8bit_adc_enable     0x080013e1   0x14  Code  Gb  src_8bit_adc.o [1]
+src_8bit_adc_init       0x080013b3   0x2e  Code  Gb  src_8bit_adc.o [1]
+src_8bit_adc_loop       0x080013f5   0x74  Code  Gb  src_8bit_adc.o [1]
+src_8bit_powerup        0x080013b1    0x2  Code  Gb  src_8bit_adc.o [1]
+src_d_mem_p             0x200011e0    0x4  Data  Gb  src_8bit_adc.o [1]
+src_d_mem_raw           0x200011cc   0x10  Data  Gb  src_8bit_adc.o [1]
+ssn_buffer_raw          0x20001208  0x100  Data  Gb  ssn_8bit.o [1]
+ssn_init                0x08002021   0x56  Code  Gb  ssn_8bit.o [1]
+ssn_loop                0x080020b1   0x78  Code  Gb  ssn_8bit.o [1]
+ssn_mem_p               0x200011e4    0x4  Data  Gb  ssn_8bit.o [1]
+ssn_mem_raw             0x200011e8   0x20  Data  Gb  ssn_8bit.o [1]
+ssn_recv_sample         0x08002129   0x2a  Code  Gb  ssn_8bit.o [1]
+ssn_send_pkt            0x08002153   0x72  Code  Gb  ssn_8bit.o [1]
+ssn_start_burst         0x08002077   0x20  Code  Gb  ssn_8bit.o [1]
+ssn_stop_burst          0x08002097   0x1a  Code  Gb  ssn_8bit.o [1]
+stAesEncrypt            0x0800692d   0x30  Code  Gb  aes.o [7]
+stCalibrateVref         0x080044b7  0x12e  Code  Gb  analogue.o [7]
+stGetRadioPower         0x08004a2b    0x8  Code  Gb  analogue.o [7]
+stGetTxPowerMode        0x080046b3    0x8  Code  Gb  analogue.o [7]
+stSetRadioPower         0x0800493b   0xe4  Code  Gb  analogue.o [7]
+stSetTxPowerMode        0x080045ff   0xb4  Code  Gb  analogue.o [7]
+stalled_reset           0x200008b4    0x4  Data  Gb  STM32W_Radio.o [1]
+startNextConversion     0x080028e3   0x5c  Code  Gb  hal_adc.o [1]
+startRouteSearch        0x08003177   0x2a  Code  Gb  routing_OEDSR.o [1]
+start_routing_aodv      0x08002e85   0x12  Code  Gb  routing_AODV.o [1]
+stmChannelSettings      0x08004a7c   0x40  Data  Gb  analogue.o [7]
+stmDroppedAckStallWorkaround
+                        0x08004b0d   0x40  Code  Gb  phy-common.o [7]
+stmFetchInt32u          0x08006b45   0x28  Code  Gb  byte-utilities.o [7]
+stmFinishAdcTempReading
+                        0x080056df   0x58  Code  Gb  phy.o [7]
+stmFinishCalibrateCurrentChannel
+                        0x080046bb  0x210  Code  Gb  analogue.o [7]
+stmFinishRadioSetChannel
+                        0x080048cf   0x5c  Code  Gb  analogue.o [7]
+stmGetKeyFromCore       0x0800689d   0x30  Code  Gb  aes.o [7]
+stmGetMacTimer          0x08005675    0x6  Code  Gb  phy.o [7]
+stmInitEui64            0x080066e1   0x18  Code  Gb  eui64.o [7]
+stmLoadKeyIntoCore      0x08006871   0x2c  Code  Gb  aes.o [7]
+stmLocalEui64           0x20001498    0x8  Data  Gb  eui64.o [7]
+stmLocalNodeId          0x20000916    0x2  Data  Lc  phy-common.o [7]
+stmLocalPanId           0x20000918    0x2  Data  Lc  phy-common.o [7]
+stmLongIdDataPendingForDevice
+                        0x08002b21    0x4  Code  Gb  phy-library.o [7]
+stmMacAckNeeded         0x20000908    0x1  Data  Gb  phy-common.o [7]
+stmMfglibMode           0x20000909    0x1  Data  Gb  phy-common.o [7]
+stmMfglibTransmitComplete
+                        0x2000090a    0x1  Data  Gb  phy-common.o [7]
+stmPacketReceivedInternalIsrCallback
+                        0x08002b59   0x4e  Code  Gb  phy-library.o [7]
+stmPhySetCoordinator    0x0800500f   0x18  Code  Gb  phy-common.o [7]
+stmPhySetEui64          0x08004fe1   0x2e  Code  Gb  phy-common.o [7]
+stmRadioAdjustLna       0x08006539    0x4  Code  Gb  analogue-lna.o [7]
+stmRadioAdjustModDac    0x08006255    0xe  Code  Gb  analogue-mod-dac.o [7]
+stmRadioAlwaysUseZeroBackoff
+                        0x20000912    0x1  Data  Gb  phy-common.o [7]
+stmRadioBootPhySpecific
+                        0x080053a3   0x64  Code  Gb  phy.o [7]
+stmRadioCalculateModDacTuneValue
+                        0x080063d7  0x12c  Code  Gb  analogue-mod-dac.o [7]
+stmRadioCalibrateCellBias
+                        0x08005c09   0xa0  Code  Gb  analogue-cell-bias.o [7]
+stmRadioCalibrateFilter
+                        0x08006175   0x30  Code  Gb  analogue-filter.o [7]
+stmRadioCalibrateLna    0x08006543  0x160  Code  Gb  analogue-lna.o [7]
+stmRadioCalibrateVco    0x080061c7   0x78  Code  Gb  analogue-vco.o [7]
+stmRadioChannel         0x20000930    0x1  Data  Gb  analogue.o [7]
+stmRadioEnableAddressMatching
+                        0x08004fb1   0x18  Code  Gb  phy-common.o [7]
+stmRadioEnableAutoAck   0x08004fc9   0x18  Code  Gb  phy-common.o [7]
+stmRadioEnableOverflowNotification
+                        0x08005041   0x18  Code  Gb  phy-common.o [7]
+stmRadioEnablePacketTrace
+                        0x08005077   0x18  Code  Gb  phy-common.o [7]
+stmRadioEnableSfdSentNotification
+                        0x08005059   0x1e  Code  Gb  phy-common.o [7]
+stmRadioGetPowerStatus  0x08004fab    0x6  Code  Gb  phy-common.o [7]
+stmRadioGetRandomNumbers
+                        0x0800567b   0x5c  Code  Gb  phy.o [7]
+stmRadioInit            0x08004dc1  0x118  Code  Gb  phy-common.o [7]
+stmRadioOverflowCallbackEnabled
+                        0x20000910    0x1  Data  Lc  phy-common.o [7]
+stmRadioPower           0x200008f8    0x1  Data  Gb  analogue.o [7]
+stmRadioReadSerialReg   0x08004441    0xe  Code  Gb  analogue.o [7]
+stmRadioReceiveCrcEnabled
+                        0x0800503b    0x6  Code  Gb  phy-common.o [7]
+stmRadioReceiveIsr      0x080055ad   0xc8  Code  Gb  phy.o [7]
+stmRadioReceiverFrameStatus
+                        0x20001376    0x2  Data  Gb  phy.o [7]
+stmRadioReceiverGain    0x20001378    0x2  Data  Gb  phy.o [7]
+stmRadioResetAndEnableReceive
+                        0x08005371   0x32  Code  Gb  phy.o [7]
+stmRadioSetChannel      0x0800492b   0x10  Code  Gb  analogue.o [7]
+stmRadioSetEdCcaThreshold
+                        0x0800508f   0x12  Code  Gb  phy-common.o [7]
+stmRadioSfdSentCallbackEnabled
+                        0x20000911    0x1  Data  Lc  phy-common.o [7]
+stmRadioSleep           0x08004ed9   0x74  Code  Gb  phy-common.o [7]
+stmRadioTransmit        0x08004b99  0x136  Code  Gb  phy-common.o [7]
+stmRadioTransmitCompleteCallback
+                        0x08002b0b    0x4  Code  Gb  phy-library.o [7]
+stmRadioTransmitIsr     0x08004ccf   0xf2  Code  Gb  phy-common.o [7]
+stmRadioTxPowerMode     0x20000904    0x2  Data  Gb  analogue.o [7]
+stmRadioUnpackChipErrors
+                        0x08004b4d    0xe  Code  Gb  phy-common.o [7]
+stmRadioWakeUp          0x08004f4d   0x5e  Code  Gb  phy-common.o [7]
+stmRadioWriteSerialReg  0x0800444f   0x34  Code  Gb  analogue.o [7]
+stmRxCRCFail            0x20001374    0x2  Data  Gb  phy.o [7]
+stmRxPacket             0x2000137a    0x2  Data  Gb  phy.o [7]
+stmSerialRegAddress     0x08004ae4   0x24  Data  Gb  analogue.o [7]
+stmSetNodeId            0x08005027    0xa  Code  Gb  phy-common.o [7]
+stmSetPanId             0x08005031    0xa  Code  Gb  phy-common.o [7]
+stmStandAloneEncryptBlock
+                        0x080068cd   0x46  Code  Gb  aes.o [7]
+stmStartAdcTempReading  0x080056d7    0x8  Code  Gb  phy.o [7]
+stmStartRadioSetChannel
+                        0x080048cb    0x4  Code  Gb  analogue.o [7]
+stmStoreInt32u          0x08006b29   0x1c  Code  Gb  byte-utilities.o [7]
+stmSynthFreqOffset      0x20000938    0x1  Data  Gb  analogue.o [7]
+stmTxStepTimeAltRfPath  0x200008f9    0x1  Data  Gb  analogue.o [7]
+stmVcoAutoTuneEnabled   0x20000931    0x1  Data  Gb  analogue.o [7]
+str_CS_SWITCH           0x20000488    0xc  Data  Gb  ChannelSwitching.o [1]
+str_CS_SWITCH_END       0x20000494   0x10  Data  Gb  ChannelSwitching.o [1]
+str_LED_BLINK_1         0x20000608    0x8  Data  Gb  routing_MMCR.o [1]
+str_LED_BLINK_2         0x20000618    0x8  Data  Gb  routing_MMCR.o [1]
+str_MMCR_HELLO          0x20000624    0xc  Data  Gb  routing_MMCR_MPR_select.o [1]
+str_MMCR_TC             0x20000630    0x8  Data  Gb  routing_MMCR_MPR_select.o [1]
+str_MMCR_sendACK        0x20000788   0x10  Data  Gb  routing_MMCR_MPR_select.o [1]
+str_MMCR_startRT        0x20000638   0x10  Data  Gb  routing_MMCR_MPR_select.o [1]
+str_NONE                0x20000898    0x8  Data  Gb  sch_basic.o [1]
+str_TEST                0x20000610    0x8  Data  Gb  routing_MMCR.o [1]
+str_stradio_PktTO       0x200008e4   0x14  Data  Gb  STM32W_Radio.o [1]
+stradio_count_failed_retransmissions_
+                        0x200008dc    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_count_ov_priority_
+                        0x200008b8    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_count_tx_timeouts_
+                        0x20001308    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_pending_data_   0x200008ac    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_pending_dst_    0x200008a8    0x2  Data  Gb  STM32W_Radio.o [1]
+stradio_pending_len_    0x200008a0    0x1  Data  Gb  STM32W_Radio.o [1]
+stradio_power_          0x2000093a    0x1  Data  Gb  STM32W_Radio.o [1]
+stradio_resend_         0x200008d4    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_retransmision_result
+                        0x200008e0    0x4  Data  Gb  STM32W_Radio.o [1]
+stradio_retransmit_req_
+                        0x200008a4    0x1  Data  Gb  STM32W_Radio.o [1]
+strchr                  0x080026f1         Code  Gb  strchr.o [5]
+strlen                  0x08002709         Code  Gb  strlen.o [5]
+switch_start_time_      0x20000474    0x4  Data  Gb  Application.o [1]
+switch_timeout_         0x20000470    0x4  Data  Gb  Application.o [1]
+sys_error               0x080014cb    0x6  Code  Gb  sys_func.o [1]
+sys_init                0x080014c1    0x8  Code  Gb  sys_func.o [1]
+sys_last_error          0x200014b3    0x1  Data  Gb  sys_func.o [1]
+sys_reset               0x080014c9    0x2  Code  Gb  sys_func.o [1]
+temp_cC                 0x20000408    0x4  Data  Gb  app_temp_1wire_main.o [1]
+temp_sensor_timeout     0x20000403    0x1  Data  Gb  app_temp_1wire_main.o [1]
+temp_task_name          0x2000043c    0x8  Data  Gb  app_temp_1wire_main.o [1]
+timeout_idx             0x200007a4    0x1  Data  Gb  sch_basic.o [1]
+timer_cb_test1          0x08003c7d   0x1c  Code  Gb  routing_MMCR.o [1]
+timer_cb_test2          0x08003c99   0x34  Code  Gb  routing_MMCR.o [1]
+tsp_callback_funcs      0x20001324   0x28  Data  Gb  tsp_common.o [1]
+tsp_callback_port       0x20001318    0xc  Data  Gb  tsp_common.o [1]
+tsp_cb_count            0x20001314    0x1  Data  Gb  tsp_common.o [1]
+tsp_distribute_modules  0x08001e7f   0x74  Code  Gb  tsp_common.o [1]
+tsp_get_dummy           0x08001fb1   0x32  Code  Gb  tsp_common.o [1]
+tsp_init                0x08001e61    0x8  Code  Gb  tsp_common.o [1]
+tsp_new_module          0x08001fe3   0x2c  Code  Gb  tsp_common.o [1]
+tsp_receive             0x08001e69   0x16  Code  Gb  tsp_common.o [1]
+tsp_release_packet      0x08001ef3    0x4  Code  Gb  tsp_common.o [1]
+tsp_reserve_packet      0x08001f1b   0x96  Code  Gb  tsp_common.o [1]
+tsp_send_from_modules   0x08001ef7   0x24  Code  Gb  tsp_common.o [1]
+txComplete              0x20000560    0x1  Data  Gb  mote.o [1]
+txPacket                0x200004e0   0x80  Data  Gb  mote.o [1]
+txPower                 0x08004abc   0x28  Data  Gb  analogue.o [7]
+txTIDX                  0x200008a3    0x1  Data  Gb  STM32W_Radio.o [1]
+tx_count_               0x200008bc    0x4  Data  Gb  STM32W_Radio.o [1]
+tx_isr_count_           0x200008c0    0x4  Data  Gb  STM32W_Radio.o [1]
+uartInit                0x080066f9   0x44  Code  Gb  hal_uart.o [1]
+update_pkt_send         0x08001825   0x1c  Code  Gb  routing.o [1]
+useXtalAsIs             0x20000927    0x1  Data  Lc  hal_clocks.o [1]
+vcoLastTuneValueAvailable
+                        0x200014b8    0x1  Data  Gb  analogue-vco.o [7]
+vcoTuneModDacError      0x080063b3   0x24  Code  Lc  analogue-mod-dac.o [7]
+verifyFib               0x080069bd   0x22  Code  Lc  hal_flash.o [1]
+wakeupSleepTmrCnt       0x200011c8    0x4  Data  Gb  sleep.o [1]
+wakeupXtalState         0x20000925    0x1  Data  Gb  hal_clocks.o [1]
+wrong_make_empty        0x20000b98    0x2  Data  Gb  Queuing.o [1]
+xtalAboveLoThresholdUs  0x20000926    0x1  Data  Gb  hal_clocks.o [1]
+xtalUnstable            0x20000924    0x1  Data  Gb  hal_clocks.o [1]
+
+
+[1] = G:\Development\Github_RT\CpE5170\Lab1\Projects\SimpleMAC\mote_project\EWARM\MB_SnT_X2_Mote\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+[7] = simplemac-library.a
+
+  28 288 bytes of readonly  code memory
+   2 458 bytes of readonly  data memory
+   5 307 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
